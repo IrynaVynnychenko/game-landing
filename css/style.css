@@ -684,6 +684,7 @@ header .col-lg-6 {
   margin-top: 32px;
   padding: 13px 22px;
   border: 3px solid#226ae2;
+  font-weight: bold;
 }
 
 .btn-blue:hover {
@@ -1232,6 +1233,8 @@ footer {
   height: 56px;
   padding: 23px 16px;
   margin-bottom: 16px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer__form__item input::placeholder {
@@ -1251,6 +1254,8 @@ footer {
   width: 100%;
   height: 191px;
   padding: 23px 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__form__item textarea::placeholder {
@@ -1259,6 +1264,12 @@ footer {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #c4c4c4;
+}
+
+.footer__form .btn-blue {
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto; 
 }
 
 @media (max-width: 1200px) {
