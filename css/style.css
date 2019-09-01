@@ -1270,6 +1270,7 @@ footer {
     max-width: 200px;
     margin-right: auto;
     margin-left: auto; 
+    width: 100%;
 }
 
 @media (max-width: 1200px) {
