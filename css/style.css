@@ -1,0 +1,1399 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"),
+    url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-ExtraBold.woff") format("woff"),
+    url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Heavy.eot");
+  src: local("Gilroy Heavy"), local("Gilroy-Heavy"),
+    url("../fonts/Gilroy-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Heavy.woff") format("woff"),
+    url("../fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-LightItalic.eot");
+  src: local("Gilroy Light Italic"), local("Gilroy-LightItalic"),
+    url("../fonts/Gilroy-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-LightItalic.woff") format("woff"),
+    url("../fonts/Gilroy-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ThinItalic.eot");
+  src: local("Gilroy Thin Italic"), local("Gilroy-ThinItalic"),
+    url("../fonts/Gilroy-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-ThinItalic.woff") format("woff"),
+    url("../fonts/Gilroy-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BlackItalic.eot");
+  src: local("Gilroy Black Italic"), local("Gilroy-BlackItalic"),
+    url("../fonts/Gilroy-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-BlackItalic.woff") format("woff"),
+    url("../fonts/Gilroy-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BoldItalic.eot");
+  src: local("Gilroy Bold Italic"), local("Gilroy-BoldItalic"),
+    url("../fonts/Gilroy-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-BoldItalic.woff") format("woff"),
+    url("../fonts/Gilroy-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBold.eot");
+  src: local("Gilroy SemiBold"), local("Gilroy-SemiBold"),
+    url("../fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-SemiBold.woff") format("woff"),
+    url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLightItalic.eot");
+  src: local("Gilroy UltraLight Italic"), local("Gilroy-UltraLightItalic"),
+    url("../fonts/Gilroy-UltraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Gilroy-UltraLightItalic.woff") format("woff"),
+    url("../fonts/Gilroy-UltraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBoldItalic.eot");
+  src: local("Gilroy SemiBold Italic"), local("Gilroy-SemiBoldItalic"),
+    url("../fonts/Gilroy-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Gilroy-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"),
+    url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Light.woff") format("woff"),
+    url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-MediumItalic.eot");
+  src: local("Gilroy Medium Italic"), local("Gilroy-MediumItalic"),
+    url("../fonts/Gilroy-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-MediumItalic.woff") format("woff"),
+    url("../fonts/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBoldItalic.eot");
+  src: local("Gilroy ExtraBold Italic"), local("Gilroy-ExtraBoldItalic"),
+    url("../fonts/Gilroy-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Gilroy-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Gilroy-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+    url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-HeavyItalic.eot");
+  src: local("Gilroy Heavy Italic"), local("Gilroy-HeavyItalic"),
+    url("../fonts/Gilroy-HeavyItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-HeavyItalic.woff") format("woff"),
+    url("../fonts/Gilroy-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"),
+    url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Medium.woff") format("woff"),
+    url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-RegularItalic.eot");
+  src: local("Gilroy Regular Italic"), local("Gilroy-RegularItalic"),
+    url("../fonts/Gilroy-RegularItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-RegularItalic.woff") format("woff"),
+    url("../fonts/Gilroy-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-UltraLight.eot");
+  src: local("Gilroy UltraLight"), local("Gilroy-UltraLight"),
+    url("../fonts/Gilroy-UltraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-UltraLight.woff") format("woff"),
+    url("../fonts/Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"),
+    url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Bold.woff") format("woff"),
+    url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Thin.eot");
+  src: local("Gilroy Thin"), local("Gilroy-Thin"),
+    url("../fonts/Gilroy-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Thin.woff") format("woff"),
+    url("../fonts/Gilroy-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.eot");
+  src: local("Gilroy Black"), local("Gilroy-Black"),
+    url("../fonts/Gilroy-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gilroy-Black.woff") format("woff"),
+    url("../fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Light.eot");
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Light.woff") format("woff"),
+    url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-MediumItalic.eot");
+  src: local("Montserrat Medium Italic"), local("Montserrat-MediumItalic"),
+    url("../fonts/Montserrat-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-MediumItalic.woff") format("woff"),
+    url("../fonts/Montserrat-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Thin.eot");
+  src: local("Montserrat Thin"), local("Montserrat-Thin"),
+    url("../fonts/Montserrat-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Thin.woff") format("woff"),
+    url("../fonts/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraLightItalic.eot");
+  src: local("Montserrat ExtraLight Italic"),
+    local("Montserrat-ExtraLightItalic"),
+    url("../fonts/Montserrat-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-BoldItalic.eot");
+  src: local("Montserrat Bold Italic"), local("Montserrat-BoldItalic"),
+    url("../fonts/Montserrat-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-BoldItalic.woff") format("woff"),
+    url("../fonts/Montserrat-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+    url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraLight.eot");
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"),
+    url("../fonts/Montserrat-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-ExtraLight.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBoldItalic.eot");
+  src: local("Montserrat ExtraBold Italic"), local("Montserrat-ExtraBoldItalic"),
+    url("../fonts/Montserrat-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Italic.eot");
+  src: local("Montserrat Italic"), local("Montserrat-Italic"),
+    url("../fonts/Montserrat-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Italic.woff") format("woff"),
+    url("../fonts/Montserrat-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.eot");
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-LightItalic.eot");
+  src: local("Montserrat Light Italic"), local("Montserrat-LightItalic"),
+    url("../fonts/Montserrat-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-LightItalic.woff") format("woff"),
+    url("../fonts/Montserrat-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-BlackItalic.eot");
+  src: local("Montserrat Black Italic"), local("Montserrat-BlackItalic"),
+    url("../fonts/Montserrat-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-BlackItalic.woff") format("woff"),
+    url("../fonts/Montserrat-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBoldItalic.eot");
+  src: local("Montserrat SemiBold Italic"), local("Montserrat-SemiBoldItalic"),
+    url("../fonts/Montserrat-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: local("Montserrat Medium"), local("Montserrat-Medium"),
+    url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ExtraBold.eot");
+  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"),
+    url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Black.eot");
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("../fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-Black.woff") format("woff"),
+    url("../fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-ThinItalic.eot");
+  src: local("Montserrat Thin Italic"), local("Montserrat-ThinItalic"),
+    url("../fonts/Montserrat-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Montserrat-ThinItalic.woff") format("woff"),
+    url("../fonts/Montserrat-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  font-family: "Gilroy";
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__part {
+  display: flex;
+}
+
+.logo__text {
+  max-width: 59px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #141b5e;
+  align-items: center;
+  display: flex;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.language a {
+  color: #c4c4c4;
+  font-weight: 800;
+}
+
+.language a:hover {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+.moon {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu__item {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #141b5e;
+  font-weight: 800;
+  position: relative;
+}
+
+.search {
+  display: flex;
+}
+
+.search img {
+  margin-left: auto;
+}
+
+.menu__item:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #226ae2;
+  bottom: 4px;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.menu__item:hover:after {
+  opacity: 1;
+}
+
+header .col-lg-6 {
+  margin: auto;
+}
+
+.university {
+  background: url(../img/bg_university.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__item.tourney {
+  position: relative;
+  z-index: 1;
+}
+
+.menu__item.tourney:before {
+  position: absolute;
+  z-index: 2;
+  height: 3px;
+  content: "";
+  width: 130%;
+  height: 3px;
+  background-color: #226ae2;
+  bottom: -24px;
+  left: -9px;
+}
+
+.university {
+  padding-top: 60px;
+  padding-bottom: 250px;
+}
+
+.university__pic {
+  display: flex;
+  justify-content: center;
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  max-width: 490px;
+  margin: auto;
+  padding-top: 38px;
+  padding-bottom: 44px;
+}
+
+.university__title {
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.university__text {
+  padding-top: 29px;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.university__text span {
+  font-weight: bold;
+}
+
+.info {
+  position: relative;
+  z-index: 1;
+  margin-top: -216px;
+}
+
+.info__item {
+  max-width: 288px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(20, 27, 94, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 42px;
+  height: 100%;
+}
+
+.info__item img {
+  margin-bottom: 29px;
+}
+
+.info__item .simple {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f1116;
+}
+
+.info__item .bold {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #0f1116;
+  font-weight: bold;
+}
+
+.info__item .bold__item {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.university-card {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.university-card .col-lg-4 img {
+  width: 100%;
+}
+
+.university-card .col-lg-4 {
+  display: flex;
+  align-items: center;
+}
+
+.university-card .col-lg-8 p {
+  font-size: 16px;
+  line-height: 29px;
+  color: #0f1116;
+}
+
+.university-card .col-lg-8 span {
+  font-weight: bold;
+}
+
+.university-card .list-item {
+  font-weight: bold;
+}
+
+.list-item:first-letter {
+  color: #226ae2;
+}
+
+.btn-blue {
+  background: #226ae2;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 32px;
+  padding: 13px 22px;
+  border: 3px solid#226ae2;
+}
+
+.btn-blue:hover {
+  color: #226ae2;
+  background: #ffffff;
+  border: 3px solid#226ae2;
+  text-decoration: none;
+}
+
+.partners__title {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #141b5e;
+  display: flex;
+  align-items: center;
+}
+
+.partner__line {
+  width: 16px;
+  height: 4px;
+  background: #226ae2;
+  margin-right: 16px;
+}
+
+.partners__title p {
+  position: relative;
+  cursor: default;
+}
+
+.partners {
+  background: #e5e5e5;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.partners__title {
+  margin-bottom: 24px;
+}
+
+.partners .row:nth-child(2n) {
+  margin-bottom: 64px;
+}
+
+.partners .partners__item {
+  background: #ffffff;
+  border-radius: 4px;
+  min-height: 149px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.games-section {
+  background: url(../img/bg_games.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.games-section__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0f1116;
+  font-weight: bold;
+}
+
+.games-section .grey__text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #9093ad;
+  margin-bottom: 25px;
+}
+
+.games-section__info span {
+  font-size: 16px;
+  line-height: 27px;
+  color: #141b5e;
+  font-weight: bold;
+}
+.games-section__title p {
+  cursor: default;
+}
+
+.games-section img {
+  margin-bottom: 24px;
+}
+
+.game-specification {
+  background: #e5e5e5;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.games-section__text a {
+  color: #226ae2;
+  font-weight: bold;
+}
+
+.games-section__text a:hover {
+  color: #226ae2;
+  font-weight: bold;
+}
+
+.games-section__text {
+  font-size: 16px;
+  line-height: 29px;
+  color: #0f1116;
+  max-width: 840px;
+  width: 100%;
+}
+
+.game-specification__item.first {
+  background: url(../img/dota2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-specification__item.second {
+  background: url(../img/lol.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-specification__item.third {
+  background: url(../img/cs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-specification__item {
+  max-width: 288px;
+  width: 100%;
+  height: 371px;
+  margin: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.game-specification__items {
+  margin-top: 24px;
+}
+
+.game-specification__item__name {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.btn-blue-small {
+  background: #226ae2;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 13px 22px;
+  color: #ffffff;
+  border: 3px solid #226ae2;
+  max-width: 256px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.btn-blue-small:hover {
+  color: #226ae2;
+  border: 3px solid #226ae2;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.accordion {
+  max-width: 1068px;
+  width: 100%;
+  margin: auto;
+  margin-top: 88px;
+}
+
+.accordion > .card .card-header {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 0 !important;
+  border-bottom: none;
+}
+
+.accordion > .card {
+  margin-bottom: 16px;
+}
+
+.accordion > .card .card-header span {
+  font-size: 20px;
+  line-height: 24px;
+  color: #226ae2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.accordion > .card .card-header p {
+  font-size: 24px;
+  line-height: 24px;
+  color: #0f1116;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn.btn-link {
+  text-decoration: none;
+  text-align: left;
+  padding: 32px 38px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  border-bottom: 0px;
+}
+
+.btn.btn-link:before {
+  position: absolute;
+  z-index: 2;
+  content: url(../img/blue_arrow.svg);
+  top: 50%;
+  transform: translateY(-50%);
+  right: 44px;
+}
+
+.qualifications {
+  background: #e5e5e5;
+  padding-bottom: 116px;
+}
+
+.game-specification__items_quality {
+  padding: 30px 16px 16px 16px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.game-specification__items_quality .qualifications__text {
+  padding-bottom: 25px;
+}
+
+.qualifications .game-specification__item {
+  padding: 0px;
+  background-position: 0px -55px;
+  border-radius: 4px;
+}
+
+.qualifications .game-specification__item__name {
+  padding-left: 16px;
+  padding-bottom: 5px;
+}
+
+.btn-blue-width {
+  background: #226ae2;
+  border-radius: 4px;
+  max-width: 288px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  border: 3px solid #226ae2;
+}
+
+.btn-blue-width:hover {
+  border: 3px solid #226ae2;
+  color: #226ae2;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.regulations {
+  padding: 118px 136px;
+}
+
+.regulations .col-lg-4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.regulations__text {
+  font-size: 24px;
+  line-height: 43px;
+  color: #0f1116;
+  font-weight: bold;
+}
+
+.accordion .card-body {
+  padding: 36px;
+}
+
+.faq {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #e5e5e5;
+}
+
+.game-specification .btn.btn-link[aria-expanded="true"]:before {
+  transform: rotate(180deg);
+}
+
+.faq .btn.btn-link {
+  padding: 20px 21px;
+}
+
+.faq .btn.btn-link:before {
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.faq .btn.btn-link[aria-expanded="true"]:before {
+  transform: rotate(180deg);
+}
+
+.faq .accordion {
+  margin-top: 16px;
+}
+
+.faq .partners__title {
+  margin-bottom: 0px;
+}
+
+.left-question__title {
+  font-size: 32px;
+  line-height: 40px;
+  color: #0f1116;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.left-question {
+  background: #e5e5e5;
+  padding-bottom: 116px;
+}
+
+.left-question__item {
+  padding: 32px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-question__item.first {
+  background: #7289da;
+  box-shadow: 0px 2px 4px rgba(20, 27, 94, 0.1);
+  border-radius: 4px;
+}
+
+.left-question__item.first .btn-left-question {
+  background: #5b74cc;
+  border-radius: 4px;
+  height: 56px;
+  max-width: 272px;
+  width: 100%;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.left-question__item .btn-left-question:hover {
+  text-decoration: none;
+}
+
+.left-question__item .btn-left-question {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-question__item.second {
+  background: #e25141;
+  box-shadow: 0px 2px 4px rgba(20, 27, 94, 0.1);
+  border-radius: 4px;
+}
+
+.left-question__item.second .btn-left-question {
+  background: #cc3f30;
+  border-radius: 4px;
+  height: 56px;
+  max-width: 272px;
+  width: 100%;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.left-question__item.third {
+  background: #57aee7;
+  box-shadow: 0px 2px 4px rgba(20, 27, 94, 0.1);
+  border-radius: 4px;
+}
+
+.left-question__item.third .btn-left-question {
+  background: #309be1;
+  border-radius: 4px;
+  height: 56px;
+  max-width: 272px;
+  width: 100%;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.left-question__item img {
+  margin-bottom: 40px;
+}
+
+.left-question__item__text {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: auto;
+}
+
+.map__item {
+  background: #ffffff;
+  border-radius: 4px;
+  max-width: 400px;
+  width: 100%;
+  padding: 24px;
+  position: relative;
+  z-index: 1;
+  margin-top: -475px;
+}
+
+.faq .accordion > .card .card-header p {
+  font-size: 20px;
+}
+
+.footer__go {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #575d8b;
+}
+
+.footer__email {
+  margin-bottom: 47px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #226ae2;
+}
+
+footer {
+  background: #f3f5f4;
+  padding-bottom: 30px;
+}
+
+.footer__city {
+  margin-bottom: 60px;
+  margin-top: 73px;
+}
+
+.footer__title {
+  font-size: 48px;
+  line-height: 59px;
+  color: #141b5e;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+
+.map {
+  background: #f3f5f4;
+  padding-bottom: 48px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  width: 100%;
+}
+
+.footer__form {
+  background: #ffffff;
+  border-radius: 4px;
+  max-width: 512px;
+  width: 100%;
+}
+
+.footer__form__item {
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__form__item input {
+  background: #ffffff;
+  border: 2px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  max-width: 416px;
+  width: 100%;
+  height: 56px;
+  padding: 23px 16px;
+  margin-bottom: 16px;
+}
+
+.footer__form__item input::placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+.footer__form__item textarea {
+  background: #ffffff;
+  border: 2px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  max-width: 416px;
+  width: 100%;
+  height: 191px;
+  padding: 23px 16px;
+}
+
+.footer__form__item textarea::placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #c4c4c4;
+}
+
+@media (max-width: 1200px) {
+  .info__item .bold__item {
+    font-size: 32px;
+  }
+  .info__item {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  header .logo__part {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .search {
+    margin: 22px auto 0px auto;
+  }
+  .info .col-lg-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .info__item {
+    margin: auto;
+  }
+  .search img {
+    margin: auto;
+  }
+  .university-card .btn-blue {
+    justify-content: center;
+    display: flex;
+    max-width: 385px;
+    width: 100%;
+    margin: 32px auto 0px;
+  }
+  .partners .col-lg-3 {
+    margin-bottom: 20px;
+  }
+  .partners .row:nth-child(2n) {
+    margin-bottom: 0px;
+  }
+  .partners .partners__item {
+    max-width: 335px;
+    margin: auto;
+  }
+  .games-section .col-lg-4 {
+    text-align: center;
+  }
+  .games-section img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .games-section__text {
+    text-align: center;
+  }
+  .game-specification__item {
+    margin-bottom: 10px;
+  }
+  .regulations__text {
+    text-align: center;
+  }
+  .qualifications .game-specification__item {
+    margin-bottom: 10px;
+  }
+  .btn-blue-width {
+    margin: 15px auto auto;
+  }
+  .footer__information {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer__form {
+    margin: auto;
+  }
+  .socials {
+    margin: auto;
+  }
+  .footer__city {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .footer__email {
+    margin-bottom: 30px;
+  }
+  footer .logo {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .map {
+    padding-bottom: 0px;
+  }
+  .left-question .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  .left-question__item {
+    max-width: 385px;
+    width: 100%;
+  }
+  .left-question__item {
+    margin: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .regulations {
+    padding: 40px;
+  }
+  .games-section__title {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu__item.tourney:before {
+    display: none;
+  }
+  .menu {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 425px) {
+  .games {
+    flex-direction: column;
+  }
+  .games img {
+    margin: 10px;
+  }
+  .btn.btn-link:before {
+    right: 10px;
+  }
+  .faq .btn.btn-link {
+    padding-right: 50px;
+  }
+}
